@@ -19,7 +19,7 @@
     </form>
 
     <script type="text/javascript">
-        var socket = io('http://localhost:3000');
+        var socket = io('https://webchat-sepia.vercel.app/');
 
         function renderMessage(message) {
             $('.messages').append('<strong clasa="messages">'+ message.author + ':</strong> '+ message.message + '<br>')
